@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "next build && next start",
+    "build": "next build",
+    "static": "next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.2.3",
+    "node-fetch": "^2.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-ga": "^2.6.0"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.8.1"
+  }
+}

@@ -49,8 +49,8 @@ export default () => (
             </a>
           </li>
           <li>
-            <a href='mailto:contact@fontkey.design?subject=Hey!' onClick={() => logEvent('Landing', 'Footer Link', 'Contact')} target='_blank'>
-              contact@fontkey.design
+            <a href='mailto:fontkey@kognise.dev?subject=Hey!' onClick={() => logEvent('Landing', 'Footer Link', 'Contact')} target='_blank'>
+              fontkey@kognise.dev
             </a>
           </li>
         </ul>

@@ -4,8 +4,8 @@ export default (props) => (
   <div>
     <Head>
       <title>{props.title ? `${props.title} | FontKey` : 'FontKey'}</title>
-      <link rel='canonical' href={`https://www.fontkey.design${props.route || '/'}`} />
-      <meta property='og:url' content={`https://www.fontkey.design${props.route || '/'}`} />
+      <link rel='canonical' href={`https://fontkey.kognise.dev${props.route || '/'}`} />
+      <meta property='og:url' content={`https://fontkey.kognise.dev${props.route || '/'}`} />
       <meta property='og:title' content={props.title || 'FontKey'} />
       <meta name='twitter:title' content={props.title ? `${props.title} | FontKey` : 'FontKey'} />
     </Head>
